@@ -1,29 +1,15 @@
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+<h1 class="display-4">Seleção de Serviços</h1>
+<p class="lead">Selecione os serviços que deseja disponibilizar em seu município. Os serviços disponíveis pelo sistema estão listados à esquerda
+  e os de sua prefeitura estão à direita. </p>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h6>Serviços disponíveis</h6>
+      <app-available-services-table></app-available-services-table>
+    </div>
+    <div class="col-6">
+      <h6>Serviços selecionados</h6>
+      <app-current-city-services-table></app-current-city-services-table>
+    </div>
+  </div>
+</div>
